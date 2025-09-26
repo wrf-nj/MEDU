@@ -225,7 +225,7 @@ class DUALUNet(nn.Module):
         self.side2 = nn.Conv2d(64, ncls, kernel_size=1)
         self.head = nn.Conv2d(64, ncls, kernel_size=1)
 
-        #for unet
+       
         n=36
         c=3
         norm = 'bn'
